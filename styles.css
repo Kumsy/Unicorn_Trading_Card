@@ -1,0 +1,66 @@
+/* Kristen Campbell */
+
+/* Main Card Border */ 
+.trading_card {
+
+    border: thin solid;
+    border-color: lightsteelblue;
+    box-shadow: 5px 5px 8px gray;
+    width: 320px;
+    padding: 5px;
+    margin: auto;
+    text-align: justify; 
+    background: linear-gradient(135deg,	#ffffcc, #ccffff, #ff99ff);
+}
+
+/* Hover Effect: I wanted to give a special glowing effect to my card
+   so I looked up and learned how to do a simple hover effect for fun. Both linear gradient and
+   the hover affect were found on w3schools.com */
+.trading_card:hover{
+    background: linear-gradient(135deg, #ff99ff, #ccffff, #ffffcc);
+}
+
+/* Animal Card Name:
+   Credit to Google Fonts for the font style 'Oswald' */
+.card_name{
+    font-family: 'Oswald', sans-serif, monospace;
+    font-size: 25px;
+    margin: auto;
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Card Image */
+.card_image{
+    width: 300px;
+    border: thin solid;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+/* Card Information */ 
+.card_info{
+    border: thin solid;
+    border-radius: 5px;
+    margin: 9px 8px 8px 8px;
+    text-align: justify;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Interesting Fact */
+.interesting_fact{
+    font-style: italic;
+    text-align: justify;
+}
+
+/* Bold List Item */
+span{
+    font-weight: bold;
+}
+ /* Remove List Bullets */
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
